@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "target": "es2020",
+    "moduleResolution":"node",
+    "sourceMap": false,
+    "newLine": "LF",
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "lib": ["es2020", "es2015.promise", "dom"],
+    "paths": {
+      "N": ["node_modules/@hitc/netsuite-types/N"],
+      "N/*": ["node_modules/@hitc/netsuite-types/N/*"]
+    },
+    "outDir": "./src/FileCabinet/"
+  },
+  "include": [
+    "./SuiteScripts/"
+  ],
+  "exclude": ["node_modules"]
+}
